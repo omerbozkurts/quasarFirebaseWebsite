@@ -1,0 +1,829 @@
+[
+  {
+    "kitapId": 1,
+    "kitapIsim": "Pensan 10'lu Tükenmez Kalem Seti",
+    "normalFiyat": "40,00",
+    "indirimliFiyat": "26,00",
+    "indirimMiktari": "%35",
+    "kitapResim": "icons/books/pensanburo10lu.png"
+  },
+
+  {
+    "kitapId": 2,
+    "kitapIsim": "Kozmos",
+    "normalFiyat": "95,30",
+    "indirimliFiyat": "71,50",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kozmos.png"
+  },
+
+  {
+    "kitapId": 3,
+    "kitapIsim": "Faber Castell Grip 0.7",
+    "normalFiyat": "64,92",
+    "indirimliFiyat": "49,99",
+    "indirimMiktari": "%23",
+    "kitapResim": "icons/books/faberkalem.png"
+  },
+
+  {
+    "kitapId": 4,
+    "kitapIsim": "Yaban",
+    "normalFiyat": "70,36",
+    "indirimliFiyat": "58,40",
+    "indirimMiktari": "%17",
+    "kitapResim": "icons/books/yaban.png"
+  },
+
+  {
+    "kitapId": 5,
+    "kitapIsim": "Nutuk",
+    "normalFiyat": "60,42",
+    "indirimliFiyat": "53,78",
+    "indirimMiktari": "%11",
+    "kitapResim": "icons/books/nutuk.png"
+  },
+
+  {
+    "kitapId": 6,
+    "kitapIsim": "KRAF Yapışkan Not Kağıdı Seti",
+    "normalFiyat": "40,63",
+    "indirimliFiyat": "32,50",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/yapiskannot.png"
+  },
+
+  {
+    "kitapId": 7,
+    "kitapIsim": "Sapiens",
+    "normalFiyat": "144,12",
+    "indirimliFiyat": "122,50",
+    "indirimMiktari": "%15",
+    "kitapResim": "icons/books/sapiens.png"
+  },
+
+  {
+    "kitapId": 8,
+    "kitapIsim": "Ales Konu Anlatım",
+    "normalFiyat": "242,47",
+    "indirimliFiyat": "177,00",
+    "indirimMiktari": "%27",
+    "kitapResim": "icons/books/ales.png"
+  },
+
+  {
+    "kitapId": 9,
+    "kitapIsim": "Limit Yayınları TYT Deneme",
+    "normalFiyat": "70,00",
+    "indirimliFiyat": "49,00",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/tytlimitdeneme.png"
+  },
+
+  {
+    "kitapId": 10,
+    "kitapIsim": "Faber Castell 12'li Tüp Boya",
+    "normalFiyat": "100,00",
+    "indirimliFiyat": "79,00",
+    "indirimMiktari": "%21",
+    "kitapResim": "icons/books/fabercastell12boya.png"
+  },
+
+  {
+    "kitapId": 11,
+    "kitapIsim": "İntibah",
+    "normalFiyat": "24,00",
+    "indirimliFiyat": "18,00",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/intibah.png"
+  },
+
+  {
+    "kitapId": 12,
+    "kitapIsim": "Araba Sevdası",
+    "normalFiyat": "43,87",
+    "indirimliFiyat": "35,10",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/arabasevdasi.png"
+  },
+
+  {
+    "kitapId": 13,
+    "kitapIsim": "Ayt Edebiyat Soru Bankası",
+    "normalFiyat": "116,00",
+    "indirimliFiyat": "92,80",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/aytedebiyat_sorubankasi.png",
+    "kitapTur": "AytPuan"
+  },
+
+  {
+    "kitapId": 14,
+    "kitapIsim": "Ayt Fizik Soru Bankası",
+    "normalFiyat": "124,00",
+    "indirimliFiyat": "99,20",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/aytfizik_sorubankasi.png",
+    "kitapTur": "AytPuan"
+  },
+
+  {
+    "kitapId": 15,
+    "kitapIsim": "9. Sınıf Edebiyat Soru Bankası",
+    "normalFiyat": "86,00",
+    "indirimliFiyat": "68,80",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/dokuzedebiyat_sorubankasi.png",
+    "kitapTur": "DokuzPuan"
+  },
+
+  {
+    "kitapId": 16,
+    "kitapIsim": "10. Sınıf Biyoloji Soru Bankası",
+    "normalFiyat": "58,00",
+    "indirimliFiyat": "46,40",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/onbiyoloji_sorubankasi.png",
+    "kitapTur": "OnPuan"
+  },
+
+  {
+    "kitapId": 17,
+    "kitapIsim": "Ayt Kimya Soru Bankası",
+    "normalFiyat": "124,00",
+    "indirimliFiyat": "99,20",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/aytkimya_sorubankasi.png",
+    "kitapTur": "AytPuan"
+  },
+
+  {
+    "kitapId": 18,
+    "kitapIsim": "7. Sınıf Sosyal Bilgiler Soru Bankası",
+    "normalFiyat": "85,00",
+    "indirimliFiyat": "68,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/yedisosyal_sorubankasi.png",
+    "kitapTur": "YediPuan"
+  },
+
+  {
+    "kitapId": 19,
+    "kitapIsim": "Tyt Kimya Soru Bankası",
+    "normalFiyat": "108,00",
+    "indirimliFiyat": "86,40",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/tytkimya_sorubankasi.png",
+    "kitapTur": "TytPuan"
+  },
+
+  {
+    "kitapId": 20,
+    "kitapIsim": "Ayt Matematik Soru Bankası",
+    "normalFiyat": "124,00",
+    "indirimliFiyat": "99,20",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/aytmatematik_sorubankasi.png",
+    "kitapTur": "AytPuan"
+  },
+
+  {
+    "kitapId": 21,
+    "kitapIsim": "11. Sınıf Edebiyat Soru Bankası",
+    "normalFiyat": "87,00",
+    "indirimliFiyat": "69,60",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/onbiredebiyat_sorubankasi.png",
+    "kitapTur": "OnBirPuan"
+  },
+
+  {
+    "kitapId": 22,
+    "kitapIsim": "11. Sınıf Tarih Soru Bankası",
+    "normalFiyat": "53,00",
+    "indirimliFiyat": "42,40",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/onbirtarih_sorubankasi.png",
+    "kitapTur": "OnBirPuan"
+  },
+
+  {
+    "kitapId": 23,
+    "kitapIsim": "Tyt Paragraf Soru Bankası",
+    "normalFiyat": "79,00",
+    "indirimliFiyat": "63,20",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/tytparagra_sorubankasi.png",
+    "kitapTur": "TytPuan"
+  },
+
+  {
+    "kitapId": 24,
+    "kitapIsim": "Tyt Matematik Soru Bankası",
+    "normalFiyat": "170,00",
+    "indirimliFiyat": "136,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/puanyayinlari/tytmatematik_sorubankasi.png",
+    "kitapTur": "TytPuan"
+  },
+
+  {
+    "kitapId": 25,
+    "kitapIsim": "8. Sınıf Lgs Tekrar Kampı",
+    "normalFiyat": "120,00",
+    "indirimliFiyat": "96,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/sinavyayinlari/sekizlgs_sorubankasi.png",
+    "kitapTur": "SekizSinav"
+  },
+
+  {
+    "kitapId": 26,
+    "kitapIsim": "Ayt Eşit Ağırlık Deneme",
+    "normalFiyat": "45,00",
+    "indirimliFiyat": "36,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/sinavyayinlari/ayt_deneme.png",
+    "kitapTur": "AytSinav"
+  },
+
+  {
+    "kitapId": 27,
+    "kitapIsim": "1. Sınıf Tüm Dersler Soru Bankası",
+    "normalFiyat": "80,00",
+    "indirimliFiyat": "48,00",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/sinavyayinlari/bir_tumdersler.png",
+    "kitapTur": "BirSinav"
+  },
+
+  {
+    "kitapId": 28,
+    "kitapIsim": "3. Sınıf Tüm Dersler Konu Anlatımı",
+    "normalFiyat": "159,00",
+    "indirimliFiyat": "95,40",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/sinavyayinlari/uctumdersler_konu.png",
+    "kitapTur": "UcSinav"
+  },
+
+  {
+    "kitapId": 29,
+    "kitapIsim": "9. Sınıf Tüm Dersler Soru Bankası",
+    "normalFiyat": "114,00",
+    "indirimliFiyat": "68,40",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/sinavyayinlari/dokuztum_sorubankasi.png",
+    "kitapTur": "DokuzSinav"
+  },
+
+  {
+    "kitapId": 30,
+    "kitapIsim": "11. sınıf Tüm Dersler Konu Anlatım",
+    "normalFiyat": "124,00",
+    "indirimliFiyat": "99,20",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/sinavyayinlari/onbirtum_konuanlatim.png",
+    "kitapTur": "OnBirSinav"
+  },
+
+  {
+    "kitapId": 31,
+    "kitapIsim": "Tyt Tüm Dersler Soru Bankası",
+    "normalFiyat": "219,00",
+    "indirimliFiyat": "131,40",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/sinavyayinlari/tyttek.png",
+    "kitapTur": "TytSinav"
+  },
+
+  {
+    "kitapId": 32,
+    "kitapIsim": "9. Sınıf Coğrafya Soru Bankası",
+    "normalFiyat": "99,00",
+    "indirimliFiyat": "59,40",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/sinavyayinlari/dokuzcografya.png",
+    "kitapTur": "DokuzSinav"
+  },
+
+  {
+    "kitapId": 33,
+    "kitapIsim": "5. Sınıf İngilizce Soru Bankası",
+    "normalFiyat": "73,00",
+    "indirimliFiyat": "43,80",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/sinavyayinlari/besingilizce.png",
+    "kitapTur": "BesSinav"
+  },
+
+  {
+    "kitapId": 34,
+    "kitapIsim": "6. Sınıf Matematik Soru Bankası",
+    "normalFiyat": "95,00",
+    "indirimliFiyat": "57,00",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/sinavyayinlari/altimatematik.png",
+    "kitapTur": "AltiSinav"
+  },
+
+  {
+    "kitapId": 35,
+    "kitapIsim": "5. Sınıf Din Soru Bankası",
+    "normalFiyat": "58,00",
+    "indirimliFiyat": "34,80",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/sinavyayinlari/besdin.png",
+    "kitapTur": "BesSinav"
+  },
+
+  {
+    "kitapId": 36,
+    "kitapIsim": "7. Sınıf Fen Bilimleri Soru Bankası",
+    "normalFiyat": "88,00",
+    "indirimliFiyat": "52,80",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/sinavyayinlari/yedifen.png",
+    "kitapTur": "YediSinav"
+  },
+
+  {
+    "kitapId": 37,
+    "kitapIsim": "Kızıl Serap",
+    "normalFiyat": "48,00",
+    "indirimliFiyat": "33,60",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/kitap/kizilserap.png",
+    "kitapTur": "KlasikOkuma"
+  },
+
+  {
+    "kitapId": 38,
+    "kitapIsim": "Ayaşlı ile Kiracıları",
+    "normalFiyat": "34,00",
+    "indirimliFiyat": "23,80",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/kitap/ayasli.png",
+    "kitapTur": "HikayeOkuma"
+  },
+
+  {
+    "kitapId": 39,
+    "kitapIsim": "Girdapta",
+    "normalFiyat": "95,00",
+    "indirimliFiyat": "66,50",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/kitap/girdapta.png",
+    "kitapTur": "EdebiyatOkuma"
+  },
+
+  {
+    "kitapId": 40,
+    "kitapIsim": "Son Bataklık",
+    "normalFiyat": "65,00",
+    "indirimliFiyat": "52,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/kitap/sonbataklik.png",
+    "kitapTur": "HikayeOkuma"
+  },
+
+  {
+    "kitapId": 41,
+    "kitapIsim": "Kırık Hayatlar",
+    "normalFiyat": "56,00",
+    "indirimliFiyat": "39,20",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/kitap/kirikhayatlar.png",
+    "kitapTur": "KlasikOkuma"
+  },
+
+  {
+    "kitapId": 42,
+    "kitapIsim": "Şiddetin Tarihi",
+    "normalFiyat": "74,00",
+    "indirimliFiyat": "55,50",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kitap/siddetintarihi.png",
+    "kitapTur": "HikayeOkuma"
+  },
+
+  {
+    "kitapId": 43,
+    "kitapIsim": "Yaprak Dökümü",
+    "normalFiyat": "56,00",
+    "indirimliFiyat": "44,80",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/kitap/yaprakdokumu.png",
+    "kitapTur": "RomanOkuma"
+  },
+
+  {
+    "kitapId": 44,
+    "kitapIsim": "Fırtınanın Habercisi",
+    "normalFiyat": "17,00",
+    "indirimliFiyat": "14,45",
+    "indirimMiktari": "%15",
+    "kitapResim": "icons/books/kitap/firtinaninhabercisi.png",
+    "kitapTur": "EdebiyatOkuma"
+  },
+
+  {
+    "kitapId": 45,
+    "kitapIsim": "John Barleycorn (Ciltli)",
+    "normalFiyat": "150,00",
+    "indirimliFiyat": "105,00",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/kitap/john.png",
+    "kitapTur": "KlasikOkuma"
+  },
+
+  {
+    "kitapId": 46,
+    "kitapIsim": "Walden",
+    "normalFiyat": "78,00",
+    "indirimliFiyat": "58,50",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kitap/walden.png",
+    "kitapTur": "RomanOkuma"
+  },
+
+  {
+    "kitapId": 47,
+    "kitapIsim": "Şüpheli Zihinler",
+    "normalFiyat": "35,50",
+    "indirimliFiyat": "28,40",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/kitap/suphecizihinler.png",
+    "kitapTur": "BilimOkuma"
+  },
+
+  {
+    "kitapId": 48,
+    "kitapIsim": "Timsah",
+    "normalFiyat": "39,00",
+    "indirimliFiyat": "29,25",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kitap/timsah.png",
+    "kitapTur": "EdebiyatOkuma"
+  },
+
+  {
+    "kitapId": 49,
+    "kitapIsim": "Kırmızı Siyah 2023 Ajanda",
+    "normalFiyat": "154,00",
+    "indirimliFiyat": "92,40",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/kirtasiyeofis/ajanda.png",
+    "kitapTur": "DefterKirtasiye"
+  },
+
+  {
+    "kitapId": 50,
+    "kitapIsim": "Haftalık Planlayıcı",
+    "normalFiyat": "75,00",
+    "indirimliFiyat": "52,50",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/kirtasiyeofis/haftalikplanlayici.png",
+    "kitapTur": "DefterKirtasiye"
+  },
+
+  {
+    "kitapId": 51,
+    "kitapIsim": "40 Gr Stick Yapıştırıcı",
+    "normalFiyat": "55,00",
+    "indirimliFiyat": "44,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/kirtasiyeofis/stickyapistirici.png",
+    "kitapTur": "OkulKirtasiye"
+  },
+
+  {
+    "kitapId": 52,
+    "kitapIsim": "Şeffaf Koli Bandı",
+    "normalFiyat": "21,00",
+    "indirimliFiyat": "15,75",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kirtasiyeofis/kolibant.png",
+    "kitapTur": "OfisKirtasiye"
+  },
+
+  {
+    "kitapId": 53,
+    "kitapIsim": "Sekreterlik",
+    "normalFiyat": "55,00",
+    "indirimliFiyat": "41,25",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kirtasiyeofis/sekreterlik.png",
+    "kitapTur": "DosyaKirtasiye"
+  },
+
+  {
+    "kitapId": 54,
+    "kitapIsim": "50'li Telli Dosya",
+    "normalFiyat": "170,00",
+    "indirimliFiyat": "127,50",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kirtasiyeofis/tellidosya.png",
+    "kitapTur": "DosyaKirtasiye"
+  },
+
+  {
+    "kitapId": 55,
+    "kitapIsim": "Geniş A4 Klasör",
+    "normalFiyat": "58,00",
+    "indirimliFiyat": "40,60",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/kirtasiyeofis/klasor.png",
+    "kitapTur": "DosyaKirtasiye"
+  },
+
+  {
+    "kitapId": 56,
+    "kitapIsim": "Şerit Daksil",
+    "normalFiyat": "27,00",
+    "indirimliFiyat": "20,25",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kirtasiyeofis/dakstil.png",
+    "kitapTur": "OfisKirtasiye"
+  },
+
+  {
+    "kitapId": 57,
+    "kitapIsim": "Gri Zımba Makinesi",
+    "normalFiyat": "55,00",
+    "indirimliFiyat": "41,25",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kirtasiyeofis/zimba.png",
+    "kitapTur": "OfisKirtasiye"
+  },
+
+  {
+    "kitapId": 58,
+    "kitapIsim": "Masaüstü Organizer Set",
+    "normalFiyat": "118,00",
+    "indirimliFiyat": "82,60",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/kirtasiyeofis/organizer.png",
+    "kitapTur": "OfisKirtasiye"
+  },
+
+  {
+    "kitapId": 59,
+    "kitapIsim": "1 Lt Bölmemli Beslenme Kabı",
+    "normalFiyat": "60,00",
+    "indirimliFiyat": "42,00",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/kirtasiyeofis/beslenme.png",
+    "kitapTur": "OkulKirtasiye"
+  },
+
+  {
+    "kitapId": 60,
+    "kitapIsim": "Üçgen Kalemlik",
+    "normalFiyat": "141,00",
+    "indirimliFiyat": "119,85",
+    "indirimMiktari": "%15",
+    "kitapResim": "icons/books/kirtasiyeofis/kalemlik.png",
+    "kitapTur": "OkulKirtasiye"
+  },
+
+  {
+    "kitapId": 61,
+    "kitapIsim": "9. Sınıf Kimya Soru Bankası",
+    "normalFiyat": "100,00",
+    "indirimliFiyat": "50,00",
+    "indirimMiktari": "%50",
+    "kitapResim": "icons/books/kampanya/dinamokimya.png",
+    "kitapTur": "TestKampanya"
+  },
+
+  {
+    "kitapId": 62,
+    "kitapIsim": "TIPDİL Sözlük",
+    "normalFiyat": "82,00",
+    "indirimliFiyat": "53,30",
+    "indirimMiktari": "%35",
+    "kitapResim": "icons/books/kampanya/tipdil.png",
+    "kitapTur": "SozlukKampanya"
+  },
+
+  {
+    "kitapId": 63,
+    "kitapIsim": "Geomatik Soru Bankası",
+    "normalFiyat": "149,00",
+    "indirimliFiyat": "74,50",
+    "indirimMiktari": "%50",
+    "kitapResim": "icons/books/kampanya/geomatik.png",
+    "kitapTur": "TestKampanya"
+  },
+
+  {
+    "kitapId": 64,
+    "kitapIsim": "4. Sınıf Fen Akıllı Defter",
+    "normalFiyat": "90,00",
+    "indirimliFiyat": "49,50",
+    "indirimMiktari": "%45",
+    "kitapResim": "icons/books/kampanya/akillidefter.png",
+    "kitapTur": "DefterKampanya"
+  },
+
+  {
+    "kitapId": 65,
+    "kitapIsim": "Best Tarih Konu Anlatım",
+    "normalFiyat": "205,00",
+    "indirimliFiyat": "102,50",
+    "indirimMiktari": "%50",
+    "kitapResim": "icons/books/kampanya/besttarih.png",
+    "kitapTur": "TestKampanya"
+  },
+
+  {
+    "kitapId": 66,
+    "kitapIsim": "8. Sınıf Stratejik Sorular",
+    "normalFiyat": "49,00",
+    "indirimliFiyat": "36,75",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kampanya/stratejiksorular.png",
+    "kitapTur": "TestKampanya"
+  },
+
+  {
+    "kitapId": 67,
+    "kitapIsim": "Tyt Dil Bilgisi Soru Bankası",
+    "normalFiyat": "42,00",
+    "indirimliFiyat": "31,50",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kampanya/dilbilgisi.png",
+    "kitapTur": "TestKampanya"
+  },
+
+  {
+    "kitapId": 68,
+    "kitapIsim": "İnsan Geleceğini Nasıl Kurar?",
+    "normalFiyat": "80,00",
+    "indirimliFiyat": "64,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/kampanya/ilber.png",
+    "kitapTur": "KitapKampanya"
+  },
+
+  {
+    "kitapId": 69,
+    "kitapIsim": "1984",
+    "normalFiyat": "70,00",
+    "indirimliFiyat": "52,50",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kampanya/1984.png",
+    "kitapTur": "KitapKampanya"
+  },
+
+  {
+    "kitapId": 70,
+    "kitapIsim": "8 Renk Asetat Kalem",
+    "normalFiyat": "250,00",
+    "indirimliFiyat": "200,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/kampanya/asetatkalem.png",
+    "kitapTur": "KalemKampanya"
+  },
+
+  {
+    "kitapId": 71,
+    "kitapIsim": "Tyt Tüm Dersler Deneme Seti",
+    "normalFiyat": "145,00",
+    "indirimliFiyat": "94,25",
+    "indirimMiktari": "%35",
+    "kitapResim": "icons/books/kampanya/tytdeneme.png",
+    "kitapTur": "DenemeKampanya"
+  },
+
+  {
+    "kitapId": 72,
+    "kitapIsim": "Sihirli Doğum Günü Macerası",
+    "normalFiyat": "59,00",
+    "indirimliFiyat": "44,25",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/kampanya/dg.png",
+    "kitapTur": "KitapKampanya"
+  },
+
+  {
+    "kitapId": 73,
+    "kitapIsim": "Yeşil Defter Anahtarlık Set",
+    "normalFiyat": "243,00",
+    "indirimliFiyat": "145,80",
+    "indirimMiktari": "%40",
+    "kitapResim": "icons/books/tavsiye/1.png",
+    "kitapTur": "DefterTavsiye"
+  },
+
+  {
+    "kitapId": 74,
+    "kitapIsim": "Kırmızı Defter Kalem Set",
+    "normalFiyat": "188,00",
+    "indirimliFiyat": "122,20",
+    "indirimMiktari": "%35",
+    "kitapResim": "icons/books/tavsiye/2.png",
+    "kitapTur": "DefterTavsiye"
+  },
+
+  {
+    "kitapId": 75,
+    "kitapIsim": "Kaktüs Anahtarlık",
+    "normalFiyat": "80,00",
+    "indirimliFiyat": "52,00",
+    "indirimMiktari": "%35",
+    "kitapResim": "icons/books/tavsiye/3.png",
+    "kitapTur": "AnahtarlikTavsiye"
+  },
+
+  {
+    "kitapId": 76,
+    "kitapIsim": "Bordo Dolma Kalem",
+    "normalFiyat": "470,00",
+    "indirimliFiyat": "329,00",
+    "indirimMiktari": "%30",
+    "kitapResim": "icons/books/tavsiye/dolmakalem.png",
+    "kitapTur": "DefterTavsiye"
+  },
+
+  {
+    "kitapId": 77,
+    "kitapIsim": "Krem Ajanda Çantası",
+    "normalFiyat": "275,00",
+    "indirimliFiyat": "247,50",
+    "indirimMiktari": "%10",
+    "kitapResim": "icons/books/tavsiye/ajandacantasi.png",
+    "kitapTur": "CantaTavsiye"
+  },
+
+  {
+    "kitapId": 78,
+    "kitapIsim": "3 Renk Tükenmez Kalem",
+    "normalFiyat": "75,00",
+    "indirimliFiyat": "45,00",
+    "indirimMiktari": "%240",
+    "kitapResim": "icons/books/tavsiye/tukenmezkalem.png",
+    "kitapTur": "DefterTavsiye"
+  },
+
+  {
+    "kitapId": 79,
+    "kitapIsim": "Tyt Sayısal Deneme Seti",
+    "normalFiyat": "365,00",
+    "indirimliFiyat": "292,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/tavsiye/tytset.png",
+    "kitapTur": "DigerTavsiye"
+  },
+
+  {
+    "kitapId": 80,
+    "kitapIsim": "Lama Desenli Sırt Çantası",
+    "normalFiyat": "489,00",
+    "indirimliFiyat": "366,75",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/tavsiye/lamacanta.png",
+    "kitapTur": "CantaTavsiye"
+  },
+
+  {
+    "kitapId": 81,
+    "kitapIsim": "Sevimli Canavar Kalemlik",
+    "normalFiyat": "75,00",
+    "indirimliFiyat": "56,25",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/tavsiye/canavarkalemlik.png",
+    "kitapTur": "CantaTavsiye"
+  },
+
+  {
+    "kitapId": 82,
+    "kitapIsim": "Koyu Mavi Matara",
+    "normalFiyat": "265,00",
+    "indirimliFiyat": "238,50",
+    "indirimMiktari": "%10",
+    "kitapResim": "icons/books/tavsiye/suluk.png",
+    "kitapTur": "DigerTavsiye"
+  },
+
+  {
+    "kitapId": 83,
+    "kitapIsim": "Kırmızı Tahta Silgisi",
+    "normalFiyat": "16,00",
+    "indirimliFiyat": "12,00",
+    "indirimMiktari": "%25",
+    "kitapResim": "icons/books/tavsiye/tahtasilgi.png",
+    "kitapTur": "DigerTavsiye"
+  },
+
+  {
+    "kitapId": 84,
+    "kitapIsim": "10'lu Keçe",
+    "normalFiyat": "40,00",
+    "indirimliFiyat": "32,00",
+    "indirimMiktari": "%20",
+    "kitapResim": "icons/books/tavsiye/kece.png",
+    "kitapTur": "DigerTavsiye"
+  }
+]
