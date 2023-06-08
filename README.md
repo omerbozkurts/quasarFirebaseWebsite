@@ -6,7 +6,7 @@
 
 # Description/Summary
   This project is a dynamic e-commerce website that leverages the power of modern web technologies to provide a seamless shopping experience. Built using HTML, CSS, JavaScript, Vue.js, Quasar, Firebase, and Firestore, the website offers real-time updates and ensures a persistent shopping cart for users.
-  
+
 **By combining the power of Vue.js, Quasar, Firebase, and Firestore, this project provides a robust and efficient solution for building dynamic e-commerce websites. It showcases the potential of these technologies in delivering a seamless shopping experience with real-time updates and a persistent shopping cart.**
 
 # Features
@@ -30,7 +30,7 @@
 
 # Some Pictures of the Project and the Code
 
-<img src="resim/1.png" width="480" height="270" /> <img src="resim/2.png" width="480" height="270" /> 
+<img src="resim/1.png" width="480" height="270" /> <img src="resim/2.png" width="480" height="270" />
 
 <img src="resim/3.png" width="480" height="270" /> <img src="resim/4.png" width="480" height="270" />
 
@@ -44,5 +44,5 @@
 
 <img src="resim/13.png" width="480" height="270" /> <img src="resim/14.png" width="480" height="270" />
 
-<img src="resim/15.png" width="480" height="270" />
+<img src="resim/15.png" width="480" height="270" /> <img src="resim/16.png" width="480" height="270" />
 
