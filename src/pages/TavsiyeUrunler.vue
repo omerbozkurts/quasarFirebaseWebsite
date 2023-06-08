@@ -3,7 +3,7 @@
   <q-layout
     ><b class="metin">TAVSİYE ÜRÜNLER</b>
     <div class="hiza">
-      <div class="kampanya-filtre-menu">
+      <div class="tavsiye-filtre-menu">
         <div class="filtre-baslik">Filtreler</div>
         <div class="filtre-liste">
           <li
@@ -69,7 +69,7 @@
   display: flex;
 }
 
-.kampanya-filtre-menu {
+.tavsiye-filtre-menu {
   margin-left: 10%;
   width: 268px;
   height: 282px;
