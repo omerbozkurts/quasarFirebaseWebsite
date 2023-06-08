@@ -1,7 +1,4 @@
-<img src="resim/1.png" />
-<img src="resim/2.png" />
-<img src="resim/3.png" />
-<img src="resim/4.png" />
+<img src="resim/1.png" /> <img src="resim/2.png" /> <img src="resim/3.png" /> <img src="resim/4.png" />
 <img src="resim/5.png" />
 <img src="resim/6.png" />
 <img src="resim/7.png" />
