@@ -6,11 +6,36 @@
       <div class="kampanya-filtre-menu">
         <div class="filtre-baslik">Filtreler</div>
         <div class="filtre-liste">
-          <li @click="handleClick('')">Tüm Ürünler</li>
-          <li @click="handleClick('DefterTavsiye')">Defter-Kalem</li>
-          <li @click="handleClick('AnahtarlikTavsiye')">Anahtarlıklar</li>
-          <li @click="handleClick('CantaTavsiye')">Çantalar</li>
-          <li @click="handleClick('DigerTavsiye')">Diğer Ürünler</li>
+          <li
+            :class="{ selected: selectedGenre === '' }"
+            @click="handleClick('')"
+          >
+            Tüm Ürünler
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'DefterTavsiye' }"
+            @click="handleClick('DefterTavsiye')"
+          >
+            Defter-Kalem
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'AnahtarlikTavsiye' }"
+            @click="handleClick('AnahtarlikTavsiye')"
+          >
+            Anahtarlıklar
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'CantaTavsiye' }"
+            @click="handleClick('CantaTavsiye')"
+          >
+            Çantalar
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'DigerTavsiye' }"
+            @click="handleClick('DigerTavsiye')"
+          >
+            Diğer Ürünler
+          </li>
         </div>
       </div>
       <div class="product-list">
@@ -80,6 +105,10 @@
 .filtre-liste li:hover {
   color: #ff6000;
   cursor: pointer;
+}
+
+.filtre-liste li.selected {
+  color: #ff6000;
 }
 
 .product-list {
