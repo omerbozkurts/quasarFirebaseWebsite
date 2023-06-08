@@ -1,28 +1,35 @@
 <template>
   <b class="alisveris-sepet-metin">ALIŞVERİŞ SEPETİ</b>
+  <div class="sepet-sinir">
+    <div class="alisveris-sepet-product-list">
+      <li
+        class="alisveris-sepet-product-list-item"
+        v-for="task in tasks"
+        :key="task.id"
+      >
+        <img :src="task.kitapResim" class="alisveris-sepet-resim col-2" />
 
-  <div class="alisveris-sepet-product-list">
-    <li
-      class="alisveris-sepet-product-list-item"
-      v-for="task in tasks"
-      :key="task.id"
-    >
-      <img :src="task.kitapResim" class="alisveris-sepet-resim" />
-      <div>{{ task.kitapIsim }}</div>
-      <div>{{ task.kitapFiyat }}</div>
-      <q-btn
-        @click.stop="deleteTask(task)"
-        flat
-        round
-        dense
-        color="primary"
-        icon="delete"
-      />
-    </li>
-  </div>
-  <div class="sepet-satinal">
-    <div class="sepet-toplam">Toplam Fiyat: {{ getTotalPrice() }} TL</div>
-    <button class="satin-al" @click="satinal()">Satın Al</button>
+        <div style="width: 60%; text-align: center">
+          {{ task.kitapIsim }}
+        </div>
+        <div>
+          {{ task.kitapFiyat }}
+        </div>
+
+        <q-btn
+          @click.stop="deleteTask(task)"
+          flat
+          round
+          dense
+          color="primary"
+          icon="delete"
+        />
+      </li>
+    </div>
+    <div class="sepet-satinal">
+      <div class="sepet-toplam">Toplam Fiyat: {{ getTotalPrice() }} TL</div>
+      <button class="satin-al" @click="satinal()">Satın Al</button>
+    </div>
   </div>
 </template>
 
@@ -147,6 +154,9 @@ export default defineComponent({
 </script>
 
 <style>
+.sepet-sinir {
+  margin-bottom: 200px;
+}
 .alisveris-sepet-metin {
   padding: 15px;
   display: flex;
