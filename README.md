@@ -1,11 +1,13 @@
-Title: Dynamic E-commerce Website with Vue.js, Quasar, Firebase, and Firestore
+#Title 
+Dynamic E-commerce Website with Vue.js, Quasar, Firebase, and Firestore
 
-Note:This project is clone of enaktif.com.
+#Note
+This project is clone of enaktif.com.
 
-Description:
+#Description/Summary
 This project is a dynamic e-commerce website that leverages the power of modern web technologies to provide a seamless shopping experience. Built using HTML, CSS, JavaScript, Vue.js, Quasar, Firebase, and Firestore, the website offers real-time updates and ensures a persistent shopping cart for users.
 
-Features:
+#Features
 - **Real-time Data Updates**: The website pulls product information directly from Firestore, ensuring that the latest product details are displayed to users. Changes made in the Firestore database are instantly reflected on the website, providing a real-time experience.
 
 - **Interactive User Interface**: Vue.js and Quasar framework are utilized to create an engaging and responsive user interface. Users can seamlessly navigate through the website, browse products, and add items to their shopping cart without page refreshes.
