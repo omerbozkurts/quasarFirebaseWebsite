@@ -6,13 +6,48 @@
       <div class="puan-filtre-menu">
         <div class="filtre-baslik">Filtreler</div>
         <div class="filtre-liste">
-          <li @click="handleClick('')">Tüm Kitaplar</li>
-          <li @click="handleClick('AytPuan')">AYT Kitapları</li>
-          <li @click="handleClick('TytPuan')">TYT Kitapları</li>
-          <li @click="handleClick('OnBirPuan')">11. Sınıf Kitapları</li>
-          <li @click="handleClick('OnPuan')">10. Sınıf Kitapları</li>
-          <li @click="handleClick('DokuzPuan')">9. Sınıf Kitapları</li>
-          <li @click="handleClick('YediPuan')">7. Sınıf Kitapları</li>
+          <li
+            :class="{ selected: selectedGenre === '' }"
+            @click="handleClick('')"
+          >
+            Tüm Kitaplar
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'AytPuan' }"
+            @click="handleClick('AytPuan')"
+          >
+            AYT Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'TytPuan' }"
+            @click="handleClick('TytPuan')"
+          >
+            TYT Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'OnBirPuan' }"
+            @click="handleClick('OnBirPuan')"
+          >
+            11. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'OnPuan' }"
+            @click="handleClick('OnPuan')"
+          >
+            10. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'DokuzPuan' }"
+            @click="handleClick('DokuzPuan')"
+          >
+            9. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'YediPuan' }"
+            @click="handleClick('YediPuan')"
+          >
+            7. Sınıf Kitapları
+          </li>
         </div>
       </div>
       <div class="product-list">
@@ -78,6 +113,10 @@
 .filtre-liste li:hover {
   color: #ff6000;
   cursor: pointer;
+}
+
+.filtre-liste li.selected {
+  color: #ff6000;
 }
 
 .product-list {
