@@ -6,17 +6,72 @@
       <div class="sinav-filtre-menu">
         <div class="filtre-baslik">Filtreler</div>
         <div class="filtre-liste">
-          <li @click="handleClick('')">Tüm Kitaplar</li>
-          <li @click="handleClick('AytSinav')">AYT Kitapları</li>
-          <li @click="handleClick('TytSinav')">TYT Kitaplari</li>
-          <li @click="handleClick('OnBirSinav')">11. Sınıf Kitapları</li>
-          <li @click="handleClick('DokuzSinav')">9. Sınıf Kitapları</li>
-          <li @click="handleClick('SekizSinav')">8. Sınıf Kitapları</li>
-          <li @click="handleClick('YediSinav')">7. Sınıf Kitapları</li>
-          <li @click="handleClick('AltiSinav')">6. Sınıf Kitapları</li>
-          <li @click="handleClick('BesSinav')">5.Sınıf Kitapları</li>
-          <li @click="handleClick('UcSinav')">3. Sınıf Kitapları</li>
-          <li @click="handleClick('BirSinav')">1. Sınıf Kitapları</li>
+          <li
+            :class="{ selected: selectedGenre === '' }"
+            @click="handleClick('')"
+          >
+            Tüm Kitaplar
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'AytSinav' }"
+            @click="handleClick('AytSinav')"
+          >
+            AYT Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'TytSinav' }"
+            @click="handleClick('TytSinav')"
+          >
+            TYT Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'OnBirSinav' }"
+            @click="handleClick('OnBirSinav')"
+          >
+            11. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'DokuzSinav' }"
+            @click="handleClick('DokuzSinav')"
+          >
+            9. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'SekizSinav' }"
+            @click="handleClick('SekizSinav')"
+          >
+            8. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'YediSinav' }"
+            @click="handleClick('YediSinav')"
+          >
+            7. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'AltiSinav' }"
+            @click="handleClick('AltiSinav')"
+          >
+            6. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'BesSinav' }"
+            @click="handleClick('BesSinav')"
+          >
+            5. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'UcSinav' }"
+            @click="handleClick('UcSinav')"
+          >
+            3. Sınıf Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'BirSinav' }"
+            @click="handleClick('BirSinav')"
+          >
+            1. Sınıf Kitapları
+          </li>
         </div>
       </div>
       <div class="product-list">
@@ -82,6 +137,10 @@
 .filtre-liste li:hover {
   color: #ff6000;
   cursor: pointer;
+}
+
+.filtre-liste li.selected {
+  color: #ff6000;
 }
 
 .product-list {
