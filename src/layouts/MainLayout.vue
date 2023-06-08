@@ -225,6 +225,21 @@
       <keep-alive>
         <router-view />
       </keep-alive>
+      <footer class="footer">
+        <div></div>
+
+        <div class="footer-text">
+          © Tüm hakları saklıdır. Kredi kartı bilgileriniz 256bit SSLsertifikası
+          ile korunmaktadır.
+        </div>
+        <img
+          src="//st.myideasoft.com/idea/js/75/themes/selftpl_6240b5b90722b/assets/uploads/footer_banks.png?revision=7.2.6.1-10-1686143434"
+          alt=""
+        />
+        <div style="text-align: center; margin-top: 30px; margin-bottom: -20px">
+          Ömer Can Bozkurt Tarafından Yapılmıştır
+        </div>
+      </footer>
     </q-page-container>
   </q-layout>
 </template>
@@ -285,7 +300,7 @@
 }
 
 .menu-item-up:hover {
-  color: #e62020;
+  color: #ff6000;
 }
 
 .down-logo {
@@ -325,7 +340,7 @@
 }
 
 .menu-item-down:hover {
-  color: #e62020;
+  color: #ff6000;
 }
 
 .menu-item-down-text {
@@ -339,7 +354,7 @@
   color: inherit;
 }
 .menu-item-down-text:hover {
-  color: #e62020;
+  color: #ff6000;
 }
 
 .cta-button {
@@ -440,7 +455,7 @@
 }
 
 .kategori-list a:hover {
-  color: #e62020;
+  color: #ff6000;
 }
 
 .cta-button:hover + .kategori-menu,
@@ -766,6 +781,19 @@
 .order-button:hover {
   color: #ff6000;
   background-color: #fff;
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: #f0f0f0;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer-text {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 </style>
 
