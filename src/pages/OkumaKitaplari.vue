@@ -6,12 +6,42 @@
       <div class="okuma-filtre-menu">
         <div class="filtre-baslik">Filtreler</div>
         <div class="filtre-liste">
-          <li @click="handleClick('')">Tüm Kitaplar</li>
-          <li @click="handleClick('EdebiyatOkuma')">Edebiyat Kitapları</li>
-          <li @click="handleClick('BilimOkuma')">Bilim Kitapları</li>
-          <li @click="handleClick('RomanOkuma')">Romanlar</li>
-          <li @click="handleClick('KlasikOkuma')">Klasik Kitaplar</li>
-          <li @click="handleClick('HikayeOkuma')">Hikaye Kitapları</li>
+          <li
+            :class="{ selected: selectedGenre === '' }"
+            @click="handleClick('')"
+          >
+            Tüm Kitaplar
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'EdebiyatOkuma' }"
+            @click="handleClick('EdebiyatOkuma')"
+          >
+            Edebiyat Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'BilimOkuma' }"
+            @click="handleClick('BilimOkuma')"
+          >
+            Bilim Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'RomanOkuma' }"
+            @click="handleClick('RomanOkuma')"
+          >
+            Romanlar
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'KlasikOkuma' }"
+            @click="handleClick('KlasikOkuma')"
+          >
+            Klasik Kitaplar
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'HikayeOkuma' }"
+            @click="handleClick('HikayeOkuma')"
+          >
+            Hikaye Kitapları
+          </li>
         </div>
       </div>
       <div class="product-list">
@@ -77,6 +107,10 @@
 .filtre-liste li:hover {
   color: #ff6000;
   cursor: pointer;
+}
+
+.filtre-liste li.selected {
+  color: #ff6000;
 }
 
 .product-list {
