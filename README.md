@@ -26,9 +26,10 @@ This project is a dynamic e-commerce website that leverages the power of modern 
 ## Open Source
   This project is open-source and available on GitHub, allowing developers to explore the codebase, contribute enhancements, and learn from its implementation. It serves as a valuable resource for those interested in building dynamic e-commerce websites using Vue.js, Quasar, Firebase, and Firestore.
 
+#
 **By combining the power of Vue.js, Quasar, Firebase, and Firestore, this project provides a robust and efficient solution for building dynamic e-commerce websites. It showcases the potential of these technologies in delivering a seamless shopping experience with real-time updates and a persistent shopping cart.**
 
-
+# Some Pictures of the Project and the Code
 
 <img src="resim/1.png" width="480" height="270" /> <img src="resim/2.png" width="480" height="270" /> 
 
