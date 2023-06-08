@@ -1,4 +1,4 @@
-<div>><img src="resim/1.png" /> 
+<div style="display:flex; flex:wrap"><img src="resim/1.png" /> 
 <img src="resim/2.png" /> 
 <img src="resim/3.png" /> 
 <img src="resim/4.png" />
