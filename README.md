@@ -1,4 +1,4 @@
-<div style="display:flex; flex:wrap"><img src="resim/1.png" /> 
+<img src="resim/1.png" width="480" height="270" /> 
 <img src="resim/2.png" /> 
 <img src="resim/3.png" /> 
 <img src="resim/4.png" />
@@ -13,4 +13,4 @@
 <img src="resim/13.png" />
 <img src="resim/14.png" />
 <img src="resim/15.png" />
-  <div/
+
