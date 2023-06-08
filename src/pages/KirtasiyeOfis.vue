@@ -25,11 +25,36 @@
       <div class="ofis-filtre-menu">
         <div class="filtre-baslik">Filtreler</div>
         <div class="filtre-liste">
-          <li @click="handleClick('')">Tüm Ürünler</li>
-          <li @click="handleClick('DefterKirtasiye')">Defter-Planlayıcı</li>
-          <li @click="handleClick('OkulKirtasiye')">Okul Ürünleri</li>
-          <li @click="handleClick('OfisKirtasiye')">Ofis Ürünleri</li>
-          <li @click="handleClick('DosyaKirtasiye')">Dosya ve Sekreterlik</li>
+          <li
+            :class="{ selected: selectedGenre === '' }"
+            @click="handleClick('')"
+          >
+            Tüm Ürünler
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'DefterKirtasiye' }"
+            @click="handleClick('DefterKirtasiye')"
+          >
+            Defter-Planlayıcı
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'OkulKirtasiye' }"
+            @click="handleClick('OkulKirtasiye')"
+          >
+            Okul Ürünleri
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'OfisKirtasiye' }"
+            @click="handleClick('OfisKirtasiye')"
+          >
+            Ofis Ürünleri
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'DosyaKirtasiye' }"
+            @click="handleClick('DosyaKirtasiye')"
+          >
+            Dosya ve Sekreterlik
+          </li>
         </div>
       </div>
 
@@ -100,6 +125,10 @@
 .filtre-liste li:hover {
   color: #ff6000;
   cursor: pointer;
+}
+
+.filtre-liste li.selected {
+  color: #ff6000;
 }
 
 .product-list-ust {
