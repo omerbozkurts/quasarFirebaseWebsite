@@ -6,6 +6,7 @@
 
 # Description/Summary
   This project is a dynamic e-commerce website that leverages the power of modern web technologies to provide a seamless shopping experience. Built using HTML, CSS, JavaScript, Vue.js, Quasar, Firebase, and Firestore, the website offers real-time updates and ensures a persistent shopping cart for users.
+  
 **By combining the power of Vue.js, Quasar, Firebase, and Firestore, this project provides a robust and efficient solution for building dynamic e-commerce websites. It showcases the potential of these technologies in delivering a seamless shopping experience with real-time updates and a persistent shopping cart.**
 
 # Features
