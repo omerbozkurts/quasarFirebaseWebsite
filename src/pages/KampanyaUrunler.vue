@@ -6,13 +6,48 @@
       <div class="kampanya-filtre-menu">
         <div class="filtre-baslik">Filtreler</div>
         <div class="filtre-liste">
-          <li @click="handleClick('')">Tüm Ürünler</li>
-          <li @click="handleClick('TestKampanya')">Test Kitapları</li>
-          <li @click="handleClick('SozlukKampanya')">Sözlükler</li>
-          <li @click="handleClick('DefterKampanya')">Defterler</li>
-          <li @click="handleClick('KitapKampanya')">Okuma Kitapları</li>
-          <li @click="handleClick('KalemKampanya')">Kalemler</li>
-          <li @click="handleClick('DenemeKampanya')">Deneme Kitapları</li>
+          <li
+            :class="{ selected: selectedGenre === '' }"
+            @click="handleClick('')"
+          >
+            Tüm Ürünler
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'TestKampanya' }"
+            @click="handleClick('TestKampanya')"
+          >
+            Test Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'SozlukKampanya' }"
+            @click="handleClick('SozlukKampanya')"
+          >
+            Sözlükler
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'DefterKampanya' }"
+            @click="handleClick('DefterKampanya')"
+          >
+            Defterler
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'KitapKampanya' }"
+            @click="handleClick('KitapKampanya')"
+          >
+            Okuma Kitapları
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'KalemKampanya' }"
+            @click="handleClick('KalemKampanya')"
+          >
+            Kalemler
+          </li>
+          <li
+            :class="{ selected: selectedGenre === 'DenemeKampanya' }"
+            @click="handleClick('DenemeKampanya')"
+          >
+            Deneme Kitapları
+          </li>
         </div>
       </div>
       <div class="product-list">
@@ -78,6 +113,10 @@
 .filtre-liste li:hover {
   color: #ff6000;
   cursor: pointer;
+}
+
+.filtre-liste li.selected {
+  color: #ff6000;
 }
 
 .product-list {
